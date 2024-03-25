@@ -502,7 +502,6 @@ footer {
 .column_socialmedia {
 
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 18px;
 }
