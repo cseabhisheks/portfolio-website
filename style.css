@@ -102,6 +102,29 @@ header {
 
 }
 
+@media (max-width:873px) {
+
+    .header_main {
+        width: 100%;
+    }
+
+    header {
+        height: 100px;
+        flex-direction: column;
+
+    }
+
+    .social_media {
+        position: sticky;
+        top: 100px;
+    }
+
+    .text_deco {
+        font-size: 100%;
+    }
+
+}
+
 .home {
     height: 600px;
     display: flex;
@@ -138,7 +161,7 @@ header {
 
 .p_button {
     margin-bottom: 15%;
-    width: 100%;
+    width: 50%;
     height: 54px;
     border-radius: 20px;
     background-color: #7843E9;
@@ -211,11 +234,19 @@ header {
 }
 
 .about_column {
-    width: 50%;
-    min-height: 90%;
+    min-width: 50%;
+    min-height: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 34px;
+}
+
+.about_column2 {
+    min-width: 50%;
+    min-height: 10%;
+    display: flex;
+    flex-direction: column;
     margin-right: 34px;
 }
 
@@ -280,7 +311,7 @@ header {
 .project_heading {
     width: 70%;
     height: 4%;
-    font-size: 47px;
+    font-size: 5vw;
     font-weight: 600;
     text-align: center;
 }
@@ -383,7 +414,7 @@ header {
 
     width: 70%;
     height: 7%;
-    font-size: 47px;
+    font-size: 4vw;
     font-weight: 600;
     text-align: center;
 
